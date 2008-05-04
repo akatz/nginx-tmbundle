@@ -1,0 +1,48 @@
+Features
+========
+
+* Language grammar
+* folding
+* highlighting
+* `log` tab completion for setting up logs in NCSA combined format (the same as Apache's combined log format)
+
+Language grammar
+================
+
+This is my first attempt at any kind of language grammar for TextMate, so don't expect intensely satisfying code completion or anything like that. At least not for a while. Right now all you get are a few scopes you can use to add some style to your nginx configuration files; and very basic code folding, it only folds between { and } and then probably not all the time if you format your code tremendously differently than I do. The grammar is basically still just a keyword highlighter for nicer looking files.
+
+Scopes
+======
+
+* source.nginx
+
+  *  module.events
+  *  module.http
+  *  directive.module.main
+  *  directive.module.events
+  *  directive.module.http
+  *  directive.module.http.upstream
+  *  directive.module.http.access
+  *  directive.module.http.auth_basic
+  *  directive.module.http.autoindex
+  *  directive.module.http.browser
+  *  directive.module.http.charset
+  *  directive.module.http.empty_gif
+  *  directive.module.http.fastcgi
+  *  directive.module.http.geo
+  *  directive.module.http.gzip
+  *  directive.module.http.headers
+  *  directive.module.http.referer
+  *  directive.module.http.limit_zone
+  *  directive.module.http.log
+  *  directive.module.http.map
+  *  directive.module.http.memcached
+  *  directive.module.http.proxy
+  *  directive.module.http.rewrite
+  *  directive.module.http.ssi
+  *  directive.module.http.userid
+  *  comment
+  *  brace
+  *  paren
+  *  regex
+  *  end
