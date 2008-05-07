@@ -10,7 +10,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FFFFFF</string>
+				<string>#E6E6E6</string>
 				<key>caret</key>
 				<string>#FF0000</string>
 				<key>foreground</key>
@@ -306,6 +306,8 @@
 				<string>#FFFFFF</string>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -421,7 +423,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>     HTML Double Quoted String</string>
+			<string>   HTML Double Quoted String</string>
 			<key>scope</key>
 			<string>string.quoted.double.html</string>
 			<key>settings</key>
